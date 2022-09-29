@@ -1,15 +1,15 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 
 ## Linear Regression to Predict MPG
 
 ![Delivery #1](https://user-images.githubusercontent.com/107590196/192919764-994f9d10-63b9-45f3-b732-c48db18c77d6.png)
 
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-Is the slope of the linear model considered to be zero? Why or why not?
+### Is the slope of the linear model considered to be zero? Why or why not?
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 
 ## Summary Statistics on Suspension Coils
