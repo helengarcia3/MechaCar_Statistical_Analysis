@@ -1,11 +1,27 @@
 # MechaCar Statistical Analysis
 
+## Background
+
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+In this challenge, I will help Jeremy and the data analytics team do the following:
+
+- Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+- Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+- Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
+
+
 ## Linear Regression to Predict MPG
 
 ![Delivery #1](https://user-images.githubusercontent.com/107590196/192919764-994f9d10-63b9-45f3-b732-c48db18c77d6.png)
 
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+vehicle weight
+spoiler angle
+AWD(
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -18,7 +34,7 @@ The suspension coil data set metrics are shown below for all of the manufacturin
 
 ![Deliverable #2](https://user-images.githubusercontent.com/107590196/192919823-03d87e99-25f4-4726-927e-7e99b3888b88.png)
 
-The metrics are brocken out by each manufcaturing lot:
+The metrics are broken out by each manufacturing lot:
 
 ![Deliverable #2-2](https://user-images.githubusercontent.com/107590196/192919833-d4a71836-f11c-4cf7-b99c-298f34f1448b.png)
 
