@@ -19,18 +19,21 @@ In this challenge, I will help Jeremy and the data analytics team do the followi
 
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-vehicle weight
-spoiler angle
-AWD(
+In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. 
+Vehicle_length and Ground_clearance are statistically unlikely to provide random amounts of variance to the linear model as well as the intercept since they have significant codes closer to 0.
+
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not considered to be zero because the P-value for the model is 5.35e-11 and is less than the significance level of 0.05%. There is evidence that we can reject the null.
+
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The linear model can be used to predict the mpg of MechaCar prototypes because it has an R-squared of .7149. This means that the model is 71% accurate.
 
 
 ## Summary Statistics on Suspension Coils
 
-The suspension coil data set metrics are shown below for all of the manufacturing lots.
+The suspension coil data set metrics are shown below for all the manufacturing lots.
 
 ![Deliverable #2](https://user-images.githubusercontent.com/107590196/192919823-03d87e99-25f4-4726-927e-7e99b3888b88.png)
 
@@ -40,23 +43,28 @@ The metrics are broken out by each manufacturing lot:
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? 
 
-The varience for Lot #1 and Lot #2 are both below 100 pounds per sq inch but Lot #3 is exceeds the max at 170 pounds. Lot #3 does not meet the design specifications for the suspension coils. This lot seems to be an outlier and should be reviewed by MechaCar company. When loooking at the standard deviation it is at 13 which is a lot higher than the other 2 lots.
+The variance for Lot #1 and Lot #2 are both below 100 pounds per sq inch but Lot #3 is exceeds the max at 170 pounds. Lot #3 does not meet the design specifications for the suspension coils. This lot seems to be an outlier and should be reviewed by MechaCar company. When looking at the standard deviation it is at 13 which is a lot higher than the other 2 lots.
 
 
 ## T-Tests on Suspension Coils
 
 ![Deliverable #3](https://user-images.githubusercontent.com/107590196/192919913-0b29ce6c-29b5-44b9-a387-743eb580f152.png)
 
+The results of the T-test for the suspension coils across all of the manufacturing lots shows that they are not statistically different from the population mean at 1498.78. The p-value = 0.06028 is greater than .05 which means we cannot reject the null hypothesis.
+
 ![Deliverable #3-2 ](https://user-images.githubusercontent.com/107590196/192919924-19f6a2a1-4381-4217-a118-0d4e42a87930.png)
 
-summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Lot 1: The T-test for suspension coils for Lot 1 has a true mean of x = 1500 just like the true sample mean of 1500. The p-value = 1 which means we cannot reject the null hypothesis.
+Lot 2: The T-test for suspension coils for Lot 2 has a true mean of x = 1500.2 similar tot eh population mean of 1500. Lot 2 has a p-value = .6072 which is higher than the significance value of .05, this means we cannot reject the null hypothesis.
+Lot 3: The T-test for suspension coils for Lot 2 has a true mean of x = 1496.14 shows they are not statistically different from the population and a p-value = .04168 which is lower than the significance level of 0.05 indicating that we should reject the null hypothesis. 
+
 
 ### Summary 
 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating.
 
 In your description, address the following questions:
 
