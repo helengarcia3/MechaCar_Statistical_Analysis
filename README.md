@@ -59,19 +59,25 @@ Lot 2: The T-test for suspension coils for Lot 2 has a true mean of x = 1500.2 s
 Lot 3: The T-test for suspension coils for Lot 2 has a true mean of x = 1496.14 shows they are not statistically different from the population and a p-value = .04168 which is lower than the significance level of 0.05 indicating that we should reject the null hypothesis. 
 
 
-### Summary 
-
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating.
+We are comparing how MechaCar performs against the competition. Consumers should be comparing metrics such as cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating when comparing Mecha Car against the competititon.
 
-In your description, address the following questions:
 
 ### What metric or metrics are you going to test?
+With the rise of gas prices, the metric I will be testing against the competition is fuel efficiency.
 
 ### What is the null hypothesis or alternative hypothesis?
 
+  HO: There is no statistical difference between the competition's mpg dataset and MechaCar's mpg dataset.
+
+  Ha: The true mean of MechaCar's mpg is greater than the mean of the competitor's mpg.
+
 ### What statistical test would you use to test the hypothesis? And why?
 
+For this rest I would use the t-test to compare our dataset with the competitors, we already can use this analysis to use as comparison. 
+
 ### What data is needed to run the statistical test?
+
+WE can use the data for MechaCar that has already been provided. We can use a p-value of 0.05 and we can reject p-values lower than .05. This will indicate that the Ha is true and MechaCar has better fuel efficiency than the other competitors.
